@@ -1,0 +1,6 @@
+{
+  "rules" : {
+    "better/explicit-return": "off",
+    "fp/no-unused-expression": "off"
+  }
+}

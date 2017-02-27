@@ -1,6 +1,10 @@
-import kata from '../src/kata'
+/* eslint-disable fp/no-unused-expression */
+/* eslint-disable better/explicit-return */
 
-describe('kata', () => {
-  it('should do kata', () => {
-})
+import kata from "../src/kata";
 
+describe("kata", () => {
+  test("should do kata", () => {
+    expect(kata("value")).toBe("Toto");
+  });
+});

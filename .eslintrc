@@ -5,16 +5,21 @@
   "extends": [
     "airbnb",
     "cleanjs",
-    "plugin:flowtype/recommended"
+    "plugin:flowtype/recommended",
+    "plugin:jest/recommended"
   ],
   "plugins": [
     "flowtype",
     "jest"
   ],
   "rules" : {
+    "better/no-new": "warn",
+    "comma-dangle": ["error", "never"],
     "fp/no-nil": "warn",    
+    "fp/no-rest-parameters": "warn", 
+    "indent": "off",
     "no-confusing-arrow": "warn",
     "no-mixed-operators": "warn",
-    "semi": ["error", "never"]
+    "quotes": ["error", "double"]
   }
 }

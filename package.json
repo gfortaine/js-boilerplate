@@ -35,7 +35,7 @@
   "scripts": {
     "test": "flow && lint-staged && jest --coverage",
     "precommit": "yarn test",
-    "start": "babel-node ./kata.js"
+    "start": "babel-node ./src/kata.js"
   },
   "lint-staged": {
     "*.js": [

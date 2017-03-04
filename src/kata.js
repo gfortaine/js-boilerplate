@@ -1,3 +1,3 @@
 // @flow
 
-export default () => "Toto";
+export default () => 'Toto';

@@ -14,12 +14,8 @@
   ],
   "rules" : {
     "better/no-new": "warn",
-    "comma-dangle": ["error", "never"],
     "fp/no-nil": "warn",    
     "fp/no-rest-parameters": "warn", 
-    "indent": "off",
-    "no-confusing-arrow": "warn",
-    "no-mixed-operators": "warn",
-    "quotes": ["error", "double"]
+    "no-confusing-arrow": "warn"
   }
 }
